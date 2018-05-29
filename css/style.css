@@ -1298,6 +1298,33 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.section-footer h3 {
+  font-size: 32px;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-footer h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #18d26e;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-footer p {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #FFF;
+}
+
 #footer {
   background: #000;
   padding: 0 0 30px 0;
