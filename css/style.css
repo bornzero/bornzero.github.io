@@ -1191,7 +1191,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* Contact Section
---------------------------------*/
+--------------------------------
 #contact {
   padding: 60px 0;
 }
@@ -1297,6 +1297,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"]:hover {
   background: #13a456;
 }
+*/
 
 /*--------------------------------------------------------------
 # Footer
@@ -1343,6 +1344,52 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
 }
+
+
+
+
+
+
+
+#footer .form #sendmessage {
+  color: #18d26e;
+  border: 1px solid #18d26e;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#footer .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#footer .form #sendmessage.show, #footer .form #errormessage.show, #footer .form .show {
+  display: block;
+}
+
+#footer .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#footer .form input, #footer .form textarea {
+  padding: 10px 14px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 15px;
+}
+
 
 #footer .footer-top .footer-info h3 {
   font-size: 34px;
@@ -1454,11 +1501,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#footer .footer-top .footer-newsletter input[type="email"] {
-  border: 0;
-  padding: 6px 8px;
-  width: 65%;
-}
+
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
   background: #18d26e;
@@ -1471,7 +1514,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
 }
 
+#footer .footer-top .footer-newsletter button[type="submit"] {
+  background: #18d26e;
+  border: 0;
+  width: 35%;
+  padding: 6px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
+  background: #13a456;
+}
+
+#footer .footer-top .footer-newsletter button[type="submit"]:hover {
   background: #13a456;
 }
 
