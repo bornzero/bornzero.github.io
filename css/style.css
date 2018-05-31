@@ -194,6 +194,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+#intro pre{
+font-size: 16px;
+font-family: "Montserrat", sans-serif;
+  margin: 0 auto 30px auto;
+  color: #fff;
+}
+
 @media (min-width: 1024px) {
   #intro p {
     width: 60%;
