@@ -1359,6 +1359,7 @@ background-color: #666;
 
 .section-footer p {
   text-align: center;
+  justify-content: center;
   padding-bottom: 30px;
   color: #FFF;
   padding-left: 2px;
