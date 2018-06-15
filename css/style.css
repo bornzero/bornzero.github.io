@@ -189,9 +189,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro p {
-  text-align: center;
+ 
   width: 80%;
-  margin: 0 auto 30px auto;
+  margin: auto;
   color: #fff;
 }
 
