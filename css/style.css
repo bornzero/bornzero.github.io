@@ -189,8 +189,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro p {
-  width: 100%;
-  margin: 0 auto 30px auto;
+  width: 80%;
+  margin: 0 auto 0 auto;
   color: #fff;
 }
 
